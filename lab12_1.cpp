@@ -11,7 +11,8 @@ int main(){
 }
 
 int fibonacci(int x){
-    if (x > 1){
+    if (x > 1)
+    {
         x = fibonacci(x - 1) + fibonacci(x - 2);
     }else if(x == 0||x == 1)
         x = x;
